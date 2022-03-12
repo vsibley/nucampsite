@@ -11,7 +11,6 @@ function RenderCard({ item }) {
             <CardBody>
                 <CardTitle>{item.name}</CardTitle>
                 <CardText>{item.description}</CardText>
-
             </CardBody>
         </Card>
     );
@@ -35,7 +34,6 @@ function Home(props) {
         </div>
     );
 }
-
 export default Home;
 
 
